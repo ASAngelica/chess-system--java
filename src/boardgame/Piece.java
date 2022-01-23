@@ -6,7 +6,7 @@ public class Piece {
 	private Board board;
 	
 	//Inicialmente só vamos passar o board pq
-	//a posição de um piece recem criado ser null
+	//a posição de um piece recem criado deve ser null
 	//dizendo que piece não foi colocado no board ainda
 	public Piece(Board board) {
 		this.board = board;
