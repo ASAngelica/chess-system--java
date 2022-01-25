@@ -17,7 +17,7 @@ public abstract class Piece {
 	//permitir que board seja alterado
 	//e o método getBoard será protected pois
 	//queremos que somente classes do mesmo pacote
-	//e subclasses vão poder acessar o board de um piece
+	//e subclasses poderao acessar o board de um piece
 	
 	
 	protected Board getBoard() {
